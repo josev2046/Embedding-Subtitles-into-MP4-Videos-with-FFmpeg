@@ -1,24 +1,22 @@
 # Embedding Subtitles into MP4 Videos with FFmpeg
 
-This guide details how to use a single FFmpeg command to permanently embed (burn in) subtitles from a separate captions file into an MP4 video. This process integrates the subtitles directly into the video stream, ensuring they are always visible across various playback environments.
-
-## Introduction
-
 Whilst many video players support external subtitle files, embedding them directly into the video offers several advantages:
 
 * **Platform Compatibility:** Ensures subtitles display on platforms with limited or no external subtitle support.
 * **Simplified Distribution:** Allows distribution of a single video file without requiring separate subtitle files.
 * **Accessibility:** Provides always-on captions for users who need them.
 
-[FFmpeg](https://ffmpeg.org/), a powerful command-line multimedia processing tool, provides a straightforward solution for this.
-
-## The Command
+This repository details how to use a single FFmpeg command to permanently embed (burn in) subtitles from a separate captions file into an MP4 video. This process integrates the subtitles directly into the video stream, ensuring they are always visible across various playback environments.
 
 The fundamental command for burning in subtitles is:
 
-```bash
+```~~~
+bash
 ffmpeg -i input.mp4 -vf subtitles=captions.srt output.mp4
-Command Breakdown
+~~~
+
+# Command Breakdown
+
 ffmpeg: Invokes the FFmpeg tool.
 -i input.mp4: Specifies the input video file. Replace input.mp4 with the actual path to your video file.
 -vf subtitles=captions.srt: Applies the subtitles video filter.
