@@ -1,6 +1,6 @@
 # Embedding Subtitles into MP4 Videos with FFmpeg
 
-Whilst many video players support external subtitle files, embedding them directly into the video offers several advantages:
+Whilst many video players support external subtitle files, embedding them directly into the video offers several advantages, namely:
 
 * **Platform Compatibility:** Ensures subtitles display on platforms with limited or no external subtitle support.
 * **Simplified Distribution:** Allows distribution of a single video file without requiring separate subtitle files.
