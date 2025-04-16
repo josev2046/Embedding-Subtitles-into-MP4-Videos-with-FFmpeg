@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15232083.svg)](https://doi.org/10.5281/zenodo.15232083)
+
 Whilst many video players support external subtitle files, embedding them directly into the video offers several advantages, namely:
 
 * **Platform Compatibility:** Ensures subtitles display on platforms with limited or no external subtitle support.
