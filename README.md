@@ -63,4 +63,4 @@ Bash
 ffmpeg -i my_video.mp4 -vf subtitles=english_subs.srt output_with_subs.mp4
 ~~~
 
-This will generate a new file named output_with_subs.mp4 with the subtitles permanently embedded.
+This will generate a new file named `output_with_subs.mp4` with the subtitles permanently embedded.
