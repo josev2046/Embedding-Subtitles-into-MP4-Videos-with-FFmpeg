@@ -57,8 +57,6 @@ The command executes the following steps:
 
 Assuming you have a video file named my_video.mp4 and a subtitle file named `english_subs.srt` in the same directory, the command would be:
 
-Bash
-
 ~~~```json
 ffmpeg -i my_video.mp4 -vf subtitles=english_subs.srt output_with_subs.mp4
 ~~~
