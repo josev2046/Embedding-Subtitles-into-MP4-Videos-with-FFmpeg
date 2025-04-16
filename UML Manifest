@@ -1,0 +1,14 @@
+@startuml
+
+participant "FFmpeg" as FFmpeg
+participant "Files" as Files
+
+note over FFmpeg: Executes:\n`ffmpeg -i input.mp4 -vf subtitles=captions.srt output.mp4`
+
+FFmpeg -> Files : Reads input.mp4 and captions.srt
+activate FFmpeg
+FFmpeg -> FFmpeg : Decodes, applies subtitles, encodes
+FFmpeg -> Files : Writes output.mp4
+deactivate FFmpeg
+
+@enduml
